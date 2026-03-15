@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
        - name: todo-delete-tasks-api
-         image: acrdevtodoproject010.azurecr.io/todo-delete-tasks-api:v1
+         image: acrdevtodoproject0214.azurecr.io/todo-delete-tasks-api:v1
          ports:
           - containerPort: 8000
          env: 
