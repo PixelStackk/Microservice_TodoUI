@@ -10,7 +10,7 @@ permissions:
   
 jobs:
   build-and-push:
-    runs-on: Todo_Runner
+    runs-on: ubuntu-latest
 
     env:
       IMAGE_NAME: micro-todo-ui-api
